@@ -1,0 +1,19 @@
+{
+	"products": [
+		{
+			"name": "Teclado k500",
+			"price": 259.9,
+			"id": 1
+		},
+		{
+			"name": "Monitor Smart",
+			"price": 1059.9,
+			"id": 2
+		},
+		{
+			"name": "Mesa",
+			"price": 359.9,
+			"id": 3
+		}
+	]
+}
