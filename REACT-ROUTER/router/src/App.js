@@ -10,6 +10,7 @@ import NavBar from "./components/NavBar";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Product from "./Pages/Product";
+import Info from "./Pages/Info";
 
 function App() {
 	return (
@@ -24,6 +25,8 @@ function App() {
 					<Route path="/about" element={<About />} />
 					{/* 4 - Rota dinâmica */}
 					<Route path="/products/:id" element={<Product />} />
+					{/* 6 - Nested route */}
+					<Route path="/products/:id/info" element={<Info />} />
 				</Routes>
 			</BrowserRouter>
 		</div>
