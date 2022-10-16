@@ -3,10 +3,16 @@ import { NavLink } from "react-router-dom";
 
 export const NavBar = () => {
 	return (
-		<div className="NavBar">
-			<NavLink to="/p1"> Página 01 </NavLink>
-			<NavLink to="/p2"> Página 02 </NavLink>
-			<NavLink to="/p3"> Página 03 </NavLink>
+		<div className="flex justify-center gap-3">
+			<NavLink className="p-1" end to="/">
+				Home
+			</NavLink>
+			<NavLink className=" p-1" to="/products">
+				Products
+			</NavLink>
+			<NavLink className="p-1" to="/about">
+				About
+			</NavLink>
 		</div>
 	);
 };

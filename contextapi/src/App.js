@@ -7,20 +7,20 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { NavBar } from "./components/NavBar";
 
 //pages
-import { Pag01 } from "./pages/Pag01";
-import { Pag02 } from "./pages/Pag02";
-import { Pag03 } from "./pages/Pag03";
+import Home from "./pages/Home";
+import Products from "./pages/Products";
+import About from "./pages/About";
 
 function App() {
 	return (
 		<div className="App">
-			<h1>Context API</h1>
+			<h1 className="font-bold text-3xl m-5">Context API</h1>
 			<BrowserRouter>
 				<NavBar />
 				<Routes>
-					<Route path="/p1" element={<Pag01 />} />
-					<Route path="/p2" element={<Pag02 />} />
-					<Route path="/p3" element={<Pag03 />} />
+					<Route path="/" element={<Home />} />
+					<Route path="/products" element={<Products />} />
+					<Route path="/about" element={<About />} />
 				</Routes>
 			</BrowserRouter>
 		</div>
