@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 .active {
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
+}
+
+.page-title {
+	@apply font-bold text-2xl m-5;
 }

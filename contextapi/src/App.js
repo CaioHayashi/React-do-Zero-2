@@ -14,7 +14,7 @@ import About from "./pages/About";
 function App() {
 	return (
 		<div className="App">
-			<h1 className="font-bold text-3xl m-5">Context API</h1>
+			<h1 className="font-bold text-3xl m-10">Context API</h1>
 			<BrowserRouter>
 				<NavBar />
 				<Routes>
