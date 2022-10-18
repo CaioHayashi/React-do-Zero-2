@@ -6,8 +6,6 @@ export const useTitleColorContext = () => {
 
 	if (!context) {
 		console.log("Contexto não encontrado!");
-	} else {
-		console.log(context);
 	}
 
 	return context;
